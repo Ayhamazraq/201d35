@@ -167,7 +167,7 @@ the next page
     2px;
     The values here appear in 
     clockwise order: top, right, 
-    bottom, left.
+    bottom, lefttt.
 
 
 # Shorthand order

@@ -110,8 +110,8 @@ appears in.
 ## Block elements always appear 
 on a new line. Examples of block 
 elements include the < and 
-<p> elements.
-If the <img> is followed by a 
+"p>" elements.
+If the img> is followed by a 
 block level element (such as a 
 paragraph) then the block level 
 element will sit on a new line 
@@ -120,9 +120,9 @@ first example on this page.
 ## Inline elements sit within a 
 block level element and do not 
 start on a new line. Examples of 
-inline elements include the <b>, 
-<em>, and <img> elements.
-If the <img> element is inside a 
+inline elements include the b>, 
+em>, and img> elements.
+If the img> element is inside a 
 block level element, any text or 
 other inline elements will flow 
 around the image as shown in 

@@ -1,6 +1,6 @@
 
-# forms
-### Why Forms?
+# forms
+## why form
 The best known form on the web is probably
 the search box that sits right in the middle of
 Google's homepage.
@@ -15,10 +15,10 @@ newsletters or mailing lists.
 
 ![](https://www.htmlgoodies.com/wp-content/uploads/2021/04/HTML-Form.png)
 
-# Form Structure
+# Form Structure
 <-form>
 Form controls live inside a
-## <-form> 
+## <-form> 
 element. This element
 should always carry the action
 attribute and will usually have a
@@ -36,14 +36,14 @@ two methods: get or post
 
 
 
-# Text Input
-## <-input>
+# Text Input
+## <-input>
 The <-input> element is used
 to create several different form
 controls. The value of the type
 attribute determines what kind
 of input they will be creating.
-## type="text"
+## type="text"
 When the type attribute has a
 value of text, it creates a singleline text input.
 name
@@ -61,7 +61,7 @@ The value of this attribute
 identifies the form control and is
 sent along with the information
 they enter to the server.
-## maxlength
+## maxlength
 You can use the maxlength
 attribute to limit the number
 of characters a user may enter
@@ -73,9 +73,9 @@ attribute could have a value of 4.
 
 ![](https://media.geeksforgeeks.org/wp-content/uploads/20190529152440/html-input-type-text.png)
 
-# Password Input
-## <-input>
-### type="password"
+# Password Input
+## <-input>
+### type="password"
 When the type attribute has
 a value of password it creates
 a text box that acts just like a
@@ -87,12 +87,12 @@ the user's shoulder, they cannot
 see sensitive data such as
 passwords.
 ![](https://www.wikihow.com/images/thumb/a/ad/Create-a-Password-Box-in-HTML-Step-5-Version-2.jpg/v4-460px-Create-a-Password-Box-in-HTML-Step-5-Version-2.jpg.webp)
-### name
+### name
 The name attribute indicates
 the name of the password input,
 which is sent to the server with
 the password the user enters.
-### size, maxlength
+###  size, maxlength
 It can also carry the size and
 maxlength attributes like the
 the single-line text input.
@@ -100,8 +100,8 @@ the single-line text input.
 ![](https://www.wikihow.com/images/thumb/d/d7/Create-a-Password-Box-in-HTML-Step-2.jpg/v4-460px-Create-a-Password-Box-in-HTML-Step-2.jpg.webp)
 
 
-# Text Area
-## <-textarea>
+# Text Area
+## <-textarea>
 The <-textarea> element
 is used to create a mutli-line
 text input. Unlike other input
@@ -128,7 +128,7 @@ in the text area.)
 
 
 
-# HTML5: Form Validation
+# HTML5: Form Validation
 You have probably seen forms
 on the web that give users
 messages if the form control has
@@ -151,9 +151,9 @@ to learn more about it open linik
 
 [Forms](https://wtf.tw/ref/duckett.pdf)
 
-# Lists, Tables & Forms
-## Bullet Point Styles
-### list-style-type
+# Lists, Tables & Forms
+## Bullet Point Styles
+### list-style-type
 The list-style-type property
 allows you to control the shape
 or style of a bullet point (also
@@ -166,8 +166,8 @@ elements.
 
 ![](https://www.oreilly.com/library/view/html-css/9781118206911/images/ch014-Uf002.jpg)
 
-# Images for Bullets
-## list-style-image
+# Images for Bullets
+## list-style-image
 You can specify an image to act
 as a bullet point using the
 list-style-image property.
@@ -188,8 +188,8 @@ list.
 
 ![](https://elextutorial.com/wp-content/uploads/2019/02/HTML-Unordered-List-HTML-ul.jpg)
 
-# Positioning the Marker
-## list-style-position
+# Positioning the Marker
+## list-style-position
 Lists are indented into the page
 by default and the list-styleposition property indicates
 whether the marker should
@@ -198,12 +198,12 @@ outside of the box containing the
 main points.
 This property can take one of
 two values:
-# outside
+# outside
 The marker sits to the left of the
 block of text. (This is the default
 behaviour if this property is not
 used.)
-# inside
+# inside
 The marker sits inside the box of
 text (which is indented).
 In the example shown, the width
@@ -216,8 +216,8 @@ text.
 
 ![](https://t4tutorials.com/wp-content/uploads/2019/03/Position-The-List-Item-Marker-in-HTML-and-CSS.png)
 
-# Border on Empty Cells
-## empty-cells
+# Border on Empty Cells
+## empty-cells
 If you have empty cells in
 your table, then you can use
 the empty-cells property to
@@ -229,13 +229,13 @@ explicitly show or hide borders
 on any empty cells then you
 should use this property.
 It can take one of three values:
-# show
+# show
 This shows the borders of any
 empty cells.
-# hide
+# hide
 This hides the borders of any
 empty cells.
-# inherit
+# inherit
 If you have one table nested
 inside another, the inherit
 value instructs the table cells to
@@ -244,7 +244,7 @@ table.
 
 ![](https://i.stack.imgur.com/TcV0P.png)
 
-# Aligning Form Controls: Problem
+# Aligning Form Controls: Problem
 Labels for form elements are
 often different lengths, which
 means that the form controls will
@@ -276,13 +276,13 @@ to learn more  about it open linik
 
 
 
-# Events
-## What is event object in JavaScript?
+# Events
+## What is event object in JavaScript?
 When a W3C event listener's event occurs and it calls its associated function, it also passes a single argument to the function—a reference to the event object. The event object contains a number of properties that describe the event that occurred.
 
 ![](https://miro.medium.com/max/572/1*1zNMKZB4Tuoy68x9MoCl8A.png)
 
-# What are the 8 types of JavaScript events?
+# What are the 8 types of JavaScript events?
 + User Interface events. These occur as the result of any interaction with the browser window rather than the HTML page.
 + Focus and blur events.
 + Mouse events.
@@ -294,10 +294,10 @@ When a W3C event listener's event occurs and it calls its associated�
 
 
 
-# How do you create an event object?
+# How do you create an event object?
 Raising a custom event is simple; we pass the name, details and options to a new CustomEvent object: var event = new CustomEvent( "newMessage", {​ detail: {​ message: "Hello World!", time: new Date(), }​, bubbles: true, cancelable: true }​ ); In this example, “newMessage” is the custom event type
 
-# Event reference
+# Event reference
 Events are fired to notify code of "interesting changes" that may affect code execution. These can arise from user interactions such as using a mouse or resizing a window, changes in the state of the underlying environment (e.g. low battery or media events from the operating system), and other causes.
 
 Each event is represented by an object that is based on the Event interface, and may have additional custom fields and/or functions to provide information about what happened. The documentation for every event has a table (near the top) that includes a link to the associated event interface, and other relevant information. A full list of the different event types is given in Event > Interfaces based on Event.
@@ -306,11 +306,11 @@ This topic provides an index to the main sorts of events you might 
 
 
 
-# Introduction to events
+# Introduction to events
 
 Events are actions or occurrences that happen in the system you are programming, which the system tells you about so you can respond to them in some way if desired. For example, if the user selects a button on a webpage, you might want to respond to that action by displaying an information box. In this article, we discuss some important concepts surrounding events, and look at how they work in browsers. This won't be an exhaustive study; just what you need to know at this stage.
 
-# User Interface Events
+# User Interface Events
 JavaScript within the browser is event driven, meaning that JavaScript responds to interactions by generating events, and expects a program to listen to interesting events. There are two types of events:
 
 User events (such as "click" mouse events) are propagated from the DOM to the Maps JavaScript API. These events are separate and distinct from standard DOM events.
